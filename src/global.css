@@ -1,0 +1,40 @@
+:root {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 1.5rem;
+}
+
+body {
+  margin: auto;
+  max-width: 1000px;
+  min-height: 10vh;
+  padding: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.star {
+  cursor: pointer;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.starsc {
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+.feedback {
+  color: #6b6b6f;
+}
